@@ -1,5 +1,5 @@
 body {
-  font-family: 'Cormorant', serif;
+  font-family: 'Bad Script', cursive;
   min-height: 100vh;
 }
 
@@ -12,7 +12,7 @@ a {
   width: 15%;
   height: 100%;
   position: fixed;
-  background: #fff;
+  background: #FCE353;
   box-shadow: 4px 0px 28px -2px rgba(0, 0, 0, 0.69);
 }
 
@@ -32,9 +32,13 @@ nav a {
   margin-bottom: 15%;
 }
 
+.logo {
+  width: 90%;
+}
+
 nav img {
   width: 50px;
-  margin-top: 10%;
+  margin-top: ;
 }
 
 .redesSociales {
@@ -47,55 +51,73 @@ nav img {
   bottom: 0;
 }
 
+.fadein {
+  position: relative;
+  min-height: 100vh;
+}
+
+.fadein img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
 .content {
   margin-left: 15.1%;
 }
 
 .seccionProductos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .seccionProductos h2 {
-    position: relative;
-    bottom: 30px;
-    font-size: 3em;
+  position: relative;
+  font-size: 3em;
 }
 
 .seccionProductos .p1 {
-    width: 80%;
-    position: relative;
-    bottom: 50px;
-    font-size: 1.5em;
-    font-weight: 300;
-    text-align: center;
+  width: 80%;
+  position: relative;
+  bottom: 50px;
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
 }
 
 .listaProductos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .prod {
-    display: flex;
-    flex-direction: column;
-    margin: 0 20px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  align-items: center;
 }
 
 .prod p {
-    width: 50%;
-    position: relative;
-    bottom: 10px;
-    text-align: center;
-    font-size: 1.3em;
-    border-bottom: 1px solid black;
+  width: 50%;
+  position: relative;
+  bottom: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  border-bottom: 1px solid black;
 }
 
-
 .listaProductos img {
-    width: 340px;
-    height: 250px;
+  width: 340px;
+  height: 250px;
+}
+
+footer {
+  margin-left: 15.1%;
+  text-align: center;
+  font-family: arial;
+  justify-content: flex-end;
 }

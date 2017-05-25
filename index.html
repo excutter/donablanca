@@ -5,10 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Cormorant:300,400" rel="stylesheet">
+
+  <!-- ICON -->
+  <link rel="icon" type="image/png" href="/img/favicon.ico">
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
   <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- NORMALIZE -->
   <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- ESTILOS -->
   <link rel="stylesheet" href="css/estilos.css">
+
   <title>Doña Blanca</title>
 </head>
 
@@ -18,7 +30,7 @@
     <!-- MENU -->
     <div class="menu">
       <nav>
-        <a href="#home"><img src="" alt="Doña Blanca"></a>
+        <a href="#home"><img src="img/menu/donaBlanca2.png" alt="Doña Blanca" class="logo"></a>
         <a href="#productos"><img src="img/menu/productos.png" alt="Productos">Productos</a>
         <a href="#tiendas"><img src="img/menu/tienda.png" alt="Tiendas">Tiendas</a>
         <a href="#recetas"><img src="img/menu/recetas.png" alt="Recetas">Recetas</a>
@@ -34,9 +46,17 @@
 
     <!-- CONTENIDO -->
     <div class="content">
-       
-      <div data-slider-id="boiaxv" id="home"></div>
 
+      <!-- SLIDESHOW -->
+      <div class="fadein" id="home">
+        <img src="img/foto1.jpg">
+        <img src="img/foto2.jpg">
+        <img src="img/foto3.jpg">
+        <img src="img/foto4.jpg">
+        <img src="img/foto5.jpg">
+      </div>
+
+      <!-- PRODUCTOS -->
       <div class="seccionProductos" id="productos">
         <h2>Productos</h2>
         <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio tempore quisquam nesciunt modi, velit aut impedit, repudiandae ipsam rem, eum doloremque temporibus. Sunt itaque quis, rerum ducimus ullam mollitia.Lorem ipsum dolor
@@ -73,8 +93,13 @@
 
     </div>
 
+    <footer>
+      <p>&copy; Todos los Derechos Reservados</p>
+    </footer>
+
   </div>
-  <script type="text/javascript" src="http://app.sliderui.com/sliders/boiaxv.js"></script>
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/slideShow.js"></script>
 
 </body>
 
