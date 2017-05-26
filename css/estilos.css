@@ -74,15 +74,15 @@ nav img {
   align-items: center;
 }
 
-.seccionProductos h2 {
+.h2Productos {
   position: relative;
+  top: 40px;
   font-size: 3em;
 }
 
-.seccionProductos .p1 {
+.p1Texto {
   width: 80%;
   position: relative;
-  bottom: 50px;
   font-size: 1.5em;
   font-weight: 300;
   text-align: center;
@@ -114,6 +114,11 @@ nav img {
   width: 340px;
   height: 250px;
 }
+
+#map {
+        height: 500px;
+        width: 100%;
+       }
 
 footer {
   margin-left: 15.1%;
